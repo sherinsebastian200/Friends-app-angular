@@ -6,16 +6,20 @@
                 <thead>
                   <tr>
                     <th scope="col">Name</th>
-                    <th scope="col">Describe your friend </th>
+                    <th scope="col">Friend Name</th>
                     <th scope="col">Friend nickname</th>
+                    <th scope="col">Describe your friend </th>
+                   
                     
                   </tr>
                 </thead>
                 <tbody>
                   <tr *ngFor="let i of friend" >
                     <th>{{i.name}}</th>
-                    <td>{{i.DescribeYourFriend}}</td>
+                    <td>{{i.friendName}}</td>
                     <td>{{i.friendNickName}}</td>
+                    <td>{{i.DescribeYourFriend}}</td>
+                   
                     
                   </tr>
                   
